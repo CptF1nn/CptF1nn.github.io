@@ -2,6 +2,27 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: #1C2826;
 	background-image: url("img/water.png");
+	background-position: 0 0;
+	background-size: 2.5vw;
+	animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+	0%{
+		background-position: 0 0;
+	}
+	25%{
+		background-position: 0.625vw 0.25vw;
+	}
+	50%{
+		background-position: 1.15vw 1.15vw;
+	}
+	75%{
+		background-position: 2.25vw 1.875vw;
+	}
+	100%{
+		background-position: 2.5vw 2.5vw;
+	}
 }
 
 h1.title{
