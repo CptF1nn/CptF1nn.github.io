@@ -1,0 +1,118 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #1C2826;
+	background-image: url("img/water.png");
+}
+
+h1.title{
+	justify-content: center;
+	border: 2vw solid #1a1932;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	padding: 5%;
+	font-weight: bold;
+	font-size: 7vw;
+	margin-bottom: 32px;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 1vw;
+	font-weight: bold;
+	justify-content: center;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+	margin: 1vw;
+	margin-top: 0.1vw;
+	justify-content: center;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.header{
+	height: 100vh;
+}
+
+div.document-body{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	display: block;
+	background-color: #00cdf9;
+	border: 0.1vw solid #1a1932;
+}
+
+nav{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	border-bottom: 0.1vw solid #1a1932;
+}
+
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	background-color: #1a1932;
+}
+
+li {
+  	float: left;
+  	background-color: #1a1932;
+}
+
+li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li a:hover {
+  	background-color: #33984b;
+}
+
+a {
+	color: #ca52c9;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #94fdff;
+}
+
+.active {
+  background-color: #5ac54f;
+}
+
+img {
+	width: 100%;
+}
+
+/* Color section
+TODO Insert all colors here
+
+#Color{
+	color: Color;
+}
+*/
+#red {
+	color: #c42430 !important;
+}
+#aggresive-red{
+	color: #ff0040 !important;
+}
+#purple{
+	color: #ca52c9 !important;
+}
+#blue{
+	color: #0098dc !important;
+}
+#dark-blue{
+	color: #1a1932 !important;
+}
