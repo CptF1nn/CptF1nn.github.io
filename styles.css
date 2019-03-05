@@ -3,39 +3,47 @@ body {
 	color: #1C2826;
 	background-image: url("img/water.png");
 	background-position: 0 0;
-	background-size: 2.5vw;
+	background-size: 5%;
 	animation: animate 5s ease-in-out infinite;
 }
 
 @keyframes animate {
 	0%{
 		background-position: 0 0;
-	}/*
-	25%{
-		background-position: 0.625vw 0.25vw;
 	}
-	50%{
-		background-position: 1.15vw 1.15vw;
-	}
-	75%{
-		background-position: 2.25vw 1.875vw;
-	}*/
 	100%{
-		background-position: 2.5vw 2.5vw;
+		background-position: 5% 5%;
 	}
 }
 
 h1.title{
+	position: relative;
 	justify-content: center;
-	border: 2vw solid #1a1932;
-	margin-left: 5%;
-	margin-right: 5%;
+	border: 2vh solid #1a1932;
 	text-align: center;
-	padding: 5%;
+	padding: 25vh 5% 25vh 5%;
 	font-weight: bold;
-	font-size: 6em;
-	margin-bottom: 32px;
+	font-size: 20vw;
 }
+
+@media screen and (min-width: 600px) {
+	body{
+		background-size: 2.5%;
+	}
+	@keyframes animate {
+		100%{
+			background-position: 2.5% 2.5%;
+		}
+	}
+	h1.title{
+		text-align: center;
+		padding: 5vh 5% 5vh 5%;
+		font-weight: bold;
+		font-size: 20vh;
+	}
+}
+
+
 
 h2 {
 	font-size: 2em;
