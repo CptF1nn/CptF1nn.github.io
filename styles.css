@@ -28,12 +28,12 @@ body {
 h1.title{
 	justify-content: center;
 	border: 2vw solid #1a1932;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: center;
 	padding: 5%;
 	font-weight: bold;
-	font-size: 7vw;
+	font-size: 30vh;
 	margin-bottom: 32px;
 }
 
@@ -114,6 +114,8 @@ a:hover {
 img {
 	width: 100%;
 }
+
+
 
 /* Color section
 TODO Insert all colors here
