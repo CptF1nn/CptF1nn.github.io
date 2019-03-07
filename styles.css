@@ -3,16 +3,16 @@ body {
 	color: #1C2826;
 	background-image: url("img/water.png");
 	background-position: 0 0;
-	background-size: 5%;
+	background-size: 5vw;
 	animation: animate 5s ease-in-out infinite;
 }
 
 @keyframes animate {
 	0%{
-		background-position: 0 0;
+		background-position: 0vw 0vw;
 	}
 	100%{
-		background-position: 5% 5%;
+		background-position: 5vw 5vw;
 	}
 }
 
@@ -28,11 +28,11 @@ h1.title{
 
 @media screen and (min-width: 600px) {
 	body{
-		background-size: 2.5%;
+		background-size: 2.5vw;
 	}
 	@keyframes animate {
 		100%{
-			background-position: 2.5% 2.5%;
+			background-position: 2.5vw 2.5vw;
 		}
 	}
 	h1.title{
