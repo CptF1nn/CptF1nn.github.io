@@ -43,22 +43,26 @@ h1.title{
 	}
 }
 
-
-
-h2 {
+h2{
 	font-size: 2em;
-	margin: 1vw;
 	font-weight: bold;
+}
+
+h3{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+h2.thematic {
+	margin: 1vw;
 	justify-content: center;
 	text-align: center;
 }
 
-h3 {
-	font-size: 1em;
+h3.thematic {
 	margin: 1vw;
 	margin-top: 0.1vw;
 	justify-content: center;
-	font-weight: bold;
 	text-align: center;
 }
 
@@ -123,7 +127,17 @@ img {
 	width: 100%;
 }
 
+hr{
+	border-color: black;
+}
 
+.main-content{
+	text-align: left;
+}
+
+h3.update{
+	text-align: left;
+}
 
 /* Color section
 TODO Insert all colors here
