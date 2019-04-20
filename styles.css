@@ -158,6 +158,19 @@ h3.update{
 	text-align: left;
 }
 
+.logo{
+	animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 @media screen and (min-width: 600px) {
 	body{
 		background-size: 2.5vw;
